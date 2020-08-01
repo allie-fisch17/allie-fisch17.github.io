@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Website(test)</title>
+</head>
+<body>
+
+  <div class="color-bar">
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Main</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+      </div>
+      
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">&#9776;</button> 
+      </div>
+
+      <script>
+      
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+
+</script>
+
+<div class="padding"></div>
+    
+<H1><center> About </center></H1><br>
+
+<p></p>
+
+<p><center> My name is Allison Fischer and I am a recent graduate from Southern New Hampshire University. </center></p>
+<p><center> I live in the Boston area, and am looking for a job in the area and/or a remote position </center></p>
+<p><center> I am a quick and eager learner hoping to add to my current development knowledge and look forward to branching off to other software development positions. </center></p>
+<p><center> While at SNHU I received a bachelors degree in Information Technology with a concentration in web development. </center></p><br>
+
+
+
+<p><center> Some skills I attained while attended classes there are not limited to but include: </center></p>
+<p><center> Basic cybersecurity, hardware security, software security, UI/UX design, CSS, HTML, basic Javascript, basic Python, basic C++</center></p>
+<p><center> I am looking forward to working in a fast-paced learning enviornment and hope enhance my knowledge while working around co-workers </center></p>
+<p><center> In the top right hand corner there is a link to my LinkedIn profile and email </center></p>
+
+<div class="righticons">
+  <a href="https://www.linkedin.com/in/allison-fischer-a18263192" title="LinkedIn Profile"> <i class="fa fa-linkedin" aria-hidden="true" style="margin-right: 20px;"></i></a>
+  <a href="mailto: a_fischer179@aol.com" title="email"> <i class="fa fa-envelope" aria-hidden="true"></i></a>
+  </div>
+
+</div>
+
+</body>
+</html>
